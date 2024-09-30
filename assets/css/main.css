@@ -23,7 +23,7 @@
   --default-color: #ffffff; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #060606; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color:  #000011; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --surface-color:  #; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
@@ -797,7 +797,7 @@ section,
   width: 100%;
   min-height: 100vh;
   position: relative;
-  padding: 400px 0 60px 0;
+  padding: 400px 0 80px 0;
   display: flex;
   align-items: center;
    background: url("../img/heror2.svg") center center no-repeat;
@@ -806,8 +806,8 @@ section,
 
 .hero h1 {
   margin: 0;
-  font-size: 68px;
-  font-weight: 500;
+  font-size: 58px;
+  font-weight: 00;
   line-height: 60px;
 }
 
@@ -1113,7 +1113,7 @@ background: linear-gradient(180deg, rgba(0,0,17,1) 0%, rgba(110,105,150,1) 80%);
 --------------------------------------------------------------*/
 .stats {
   position: relative;
-  padding: 80px 0;
+  padding: 0px 0;
   background-color:#000011 ;
   color: #ffffff;
   background-size: cover;
@@ -1158,7 +1158,7 @@ background: linear-gradient(180deg, rgba(0,0,17,1) 0%, rgba(110,105,150,1) 80%);
 --------------------------------------------------------------*/
 .text {
     background-color: #000011;
-    background-image: url('../img/component.png');
+    background-image: url('../img/final.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -1391,11 +1391,11 @@ text-align: center;
   height: 12px;
   background-color: #ffffff;
   opacity: 1;
-  border: 1px solid #ff6600; /* Color de borde */
+  border: 1px solid #A8A2CB; /* Color de borde */
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #ff6600; /* Color activo de paginación */
+  background-color: #A8A2CB; /* Color activo de paginación */
 }
 
 
@@ -1610,7 +1610,7 @@ text-align: center;
   position: relative;
   padding: 20px;
   margin-bottom: 15px;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 95%);
   border-radius: 5px;
   overflow: hidden;
 }
